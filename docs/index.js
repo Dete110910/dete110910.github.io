@@ -1,7 +1,7 @@
  function chargePlayLists(){
    let playlist = [];
-   playlist.push("https://api.deezer.com/playlist/10344346102");
-   playlist.push("https://api.deezer.com/playlist/10490991402");
+   playlist.push("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/10344346102");
+   playlist.push("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/10490991402");
 
    return playlist;
  }
