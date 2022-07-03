@@ -7,7 +7,7 @@
  }
 
  async function getDeezerData() {
-  /*const playLists = chargePlayLists();
+  const playLists = chargePlayLists();
   let responses = [];
   var myHeaders = new Headers();
   myHeaders.append("X-Requested-With", "XMLHttpRequest");
@@ -28,19 +28,19 @@
 
   }
 
-  */
+  
   //console.log(responses[0]["tracks"]["data"])
  
 
-  //parseData(responses);
+  parseData(responses);
 
   //console.log(jsonResponse);
 
-  let responses = [];
+  //let responses = [];
 
-  const fileResponse = await fetch('playlist.json');
-  responses.push(await fileResponse.json());
-  parseData(responses);
+  //const fileResponse = await fetch('playlist.json');
+  //responses.push(await fileResponse.json());
+  //parseData(responses);
 }
 
 
